@@ -10,18 +10,18 @@ The student is confirmed:
 <br></br>
 First Name: ${student.firstName}
 <br></br>
-Last Name: <%-- ${student.lastName}--%>
+Last Name:${student.lastName}
 <br></br>
 Country: ${student.country}
 <br></br>
-Language:<%-- ${student.favoriteLanguage}--%>
+Language: ${student.favoriteLanguage}
 <br></br>
-System:<%--
+System:
 <ul>
     <c:forEach var="temp" items="${student.operatingSystem}">
     <li>${temp}</li>
     </c:forEach>
-</ul>--%>
+</ul>
 <br></br>
 </body>
 </html>

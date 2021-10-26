@@ -10,13 +10,12 @@ public class Student {
     private String[] operatingSystem;
 
     private LinkedHashMap<String, String> countryOptions;
-
     public Student() {
-        countryOptions = new LinkedHashMap<>();
-        countryOptions.put("SVK", "Slovakia");
-        countryOptions.put("FRA", "France");
-        countryOptions.put("CZE", "Czech");
-        countryOptions.put("BRA", "Brazil");
+        countryOptions=new LinkedHashMap<>();
+        countryOptions.put("SVK"," Slovakia ");
+        countryOptions.put("FRA"," France ");
+        countryOptions.put("CZE"," Czech ");
+        countryOptions.put("BRA"," Brazil ");
 
     }
 
@@ -63,9 +62,4 @@ public class Student {
     public void setOperatingSystem(String[] operatingSystem) {
         this.operatingSystem = operatingSystem;
     }
-
-    public String getLastNme(){
-        return null;
-    }
 }
-
